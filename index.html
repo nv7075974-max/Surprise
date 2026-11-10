@@ -13,15 +13,12 @@
 
         <nav>
             <a href="#memes">Мемы</a>
-            <a href="#awards">Награды</a>
-            <a href="#thanks">Благодарность</a>
+        <a href="#thanks">Благодарность</a>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <div class="sticker">TEACHER MODE 😎</div>
-
             <h1>
                 Вы ставите нам оценки,<br>
                 а мы — вам <span>100/10 ❤️</span>
@@ -94,11 +91,17 @@
 
     </main>
 
-    <footer>
+    <footer id="thanks">
         <h2>Спасибо, что вы с нами! ❤️</h2>
         <p>Вы — больше, чем преподаватели. Вы — настоящие супергерои.</p>
         <span>Сделано с уважением и небольшой долей юмора.</span>
     </footer>
 
+        <script>
+        document.addEventListener('dblclick', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+    
 </body>
 </html>
